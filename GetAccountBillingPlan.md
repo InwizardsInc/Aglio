@@ -45,7 +45,7 @@ The response returns the billing plan information, including the currency code, 
 The billingPlan and succesorPlans parameters are the same as those shown in the[ Get Billing Plan Details]
 (https://www.docusign.com/p/RESTAPIGuide/Content/REST%20API%20References/Get%20Billing%20Plan%20Details.htm)
 reference. the billingAddress and creditCardInformation parameters are the same as those shown in the
-[Update Billing Plan](https://www.docusign.com/p/RESTAPIGuide/Content/REST%20API%20References/Update%20Account%20Billing%20Plan.htm) reference.
+[Update Billing Plan](https://www.docusign.com/p/RESTAPIGuide/Content/REST%20API%20References/Update%20Account%20Billing%20Plan.html) reference.
 
 > **Note:** When credit card number information is shown, a mask is applied to the response 
 > so that only the last 4 digits of the card number are visible.
