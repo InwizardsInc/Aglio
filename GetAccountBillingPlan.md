@@ -43,7 +43,7 @@ billing address, and billing credit card.
 
 The response returns the billing plan information, including the currency code, for the plan.
 The billingPlan and succesorPlans parameters are the same as those shown in the[ Get Billing Plan Details]
-(https://www.docusign.com/p/RESTAPIGuide/Content/REST%20API%20References/Get%20Billing%20Plan%20Details.htm)
+(https://www.docusign.com/p/RESTAPIGuide/Content/REST%20API%20References/Get%20Billing%20Plan%20Details.html)
 reference. the billingAddress and creditCardInformation parameters are the same as those shown in the
 [Update Billing Plan](https://www.docusign.com/p/RESTAPIGuide/Content/REST%20API%20References/Update%20Account%20Billing%20Plan.html) reference.
 
