@@ -18,8 +18,8 @@ No additional parameters are required.
 
 ### Example Request Body
 
-    PUT https://{server}/restapi/{apiVersion}/accounts/{accountId}/connect/envelopes/{envelopeId}
-                            /retry_queue
+    PUT 
+    https://{server}/restapi/{apiVersion}/accounts/{accountId}/connect/envelopes/{envelopeId}/retry_queue
     
     X-DocuSign-Authentication: <DocuSignCredentials><Username>{name}</Username><Password>{password}
                               </Password><IntegratorKey>{integrator_key}</IntegratorKey>
