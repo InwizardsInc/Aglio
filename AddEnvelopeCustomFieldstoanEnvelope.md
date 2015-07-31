@@ -71,3 +71,46 @@ The parameters for an Envelope Custom Field are only required if you are adding 
         "value":"String"
       }]
     }
+    
+    ## Response
+    
+The response returns success or failure and any error messages.
+For all successes, DocuSign will generate a fieldId for the custom envelope field.
+The fieldId is used when editing or removing the envelope custom field in an envelope.
+
+The following example shows the response json body.
+
+### Example Response Body
+
+     {
+          "listCustomFields":[{
+          "fieldId": "String content",
+          "name": "String content",
+          "required": "String content",
+          "show": "String content",
+          "value":"String content",
+          "listItems":["String content"]
+        },
+        {
+         "fieldId": "String content",
+         "name": "String content",
+         "required": "String content",
+         "show": "String content",
+         "value":"String content",
+         "listItems":["String content"]
+          }]
+          "textCustomFields":[{
+         "fieldId": "String content",
+         "name": "String content",
+         "required": "String content",
+          "show": "String content",
+          "value":"String content"  
+         },
+        {
+         "fieldId": "String content",
+         "name": "String content",
+         "required": "String content",
+         "show": "String content",
+         "value":"String content"
+         }]
+      }
