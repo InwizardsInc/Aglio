@@ -35,4 +35,5 @@ Changes to the subject or message is not additive, it replaces the current infor
 
 ## Response
 
-    The response returns success or failure of the operation and, for failures, an associated error message.
+    The response returns success or failure of the operation and, for
+    failures, an associated error message.
