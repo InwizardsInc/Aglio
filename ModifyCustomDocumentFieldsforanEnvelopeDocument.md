@@ -55,3 +55,59 @@ This modifies existing custom document fields for an existing envelope document.
         </nameValue>
       </documentFields>
     </documentFieldsInformation>
+
+## Response
+
+The response returns the modified custom document field name-value pairs
+for the document and any errors associated with the fields.
+
+Examples of the response body for json and XML are shown below.
+
+### Example JSON Response Body
+
+    {
+      "documentFields": [
+        {
+          "name": "sample string",
+          "value": "sample string",
+          "errorDetails": {
+          "errorCode": "sample string",
+          "message": "sample string"
+        }
+        },
+        {
+          "name": "sample string",
+          "value": "sample string",
+          "errorDetails": {
+          "errorCode": "sample string",
+           "message": "sample string"
+          }
+        }
+      ]
+      }
+
+### Example XML Response Body
+
+Note that the structure of the XML response is slightly different
+than the json response, in that the name/value pairs are included in a nameValue element.
+
+    <documentFieldsInformation xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.docusign.com/restapi">
+      <documentFields>
+        <nameValue>
+          <errorDetails>
+            <errorCode>sample string</errorCode>
+            <message>sample string</message>
+          </errorDetails>
+          <name>sample string</name>
+          <value>sample string</value>
+        </nameValue>
+        <nameValue>
+          <errorDetails>
+            <errorCode>sample string</errorCode>
+            <message>sample string</message>
+         </errorDetails>
+        <name>sample string</name>
+        <value>sample string</value>
+       </nameValue>
+      </documentFields>
+    </documentFieldsInformation>
