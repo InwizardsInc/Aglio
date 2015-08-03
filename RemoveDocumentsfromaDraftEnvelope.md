@@ -24,7 +24,7 @@ See [Document parameters](https://www.docusign.com/p/RESTAPIGuide/Content/REST%2
     X-DocuSign-Authentication: <DocuSignCredentials><Username>{name}</Username>
                                <Password>{password}</Password><IntegratorKey>{integrator_key}
                                </IntegratorKey></DocuSignCredentials>
-   Accept: application/json
+     Accept: application/json
     
     Content-Type: application/json
     
