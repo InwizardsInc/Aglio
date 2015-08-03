@@ -4,6 +4,8 @@ This adds email override settings, changing the reply to email address or name
 or the BCC for email archive information, for the envelope. Note that adding email
 settings will only affect email communications that occur after the addition was made.
 
+>**Important:** The BCC Email address feature is designed to provide a copy of all email communications for external archiving > purposes. DocuSign recommends that envelopes sent using the BCC for Email Archive feature, including the BCC Email Override > option, include additional signer authentication options. To send a copy of the envelope to a recipient who does not need to > sign, use a Carbon Copies or Certified Deliveries Recipient Type.
+
 ## URL
 
     /accounts/{accountId}/envelopes/{envelopeId}/email_settings
