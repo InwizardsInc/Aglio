@@ -31,3 +31,7 @@ This rotates a page image for display. The page image can be rotated to the left
     {
       "rotate":"String content"
     }
+
+## Response
+
+    The response a success or failure.
