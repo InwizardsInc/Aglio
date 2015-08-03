@@ -14,9 +14,9 @@ This removes one or more document from an existing draft envelope.
 
 See [Document parameters](https://www.docusign.com/p/RESTAPIGuide/Content/REST%20API%20References/Document%20Parameters.htm)
 
-## Response
+## Request
 
-### example Response Body
+### Example Request Body
 
     DELETE https://{server}/restapi/{apiVersion}/accounts/{accountId}
                                    /envelopes/{envelopeId}/documents
@@ -36,3 +36,7 @@ See [Document parameters](https://www.docusign.com/p/RESTAPIGuide/Content/REST%2
         "documentId": "String content",
       }]
     }
+    
+## Response
+    
+The response returns the success or failure of each document being added to the envelope and the envelope ID. Failed operations on array elements will add the “errorDetails” structure containing an error code and message. If “errorDetails” is null, then the operation was successful for that item.
