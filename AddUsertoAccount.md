@@ -31,7 +31,7 @@ This adds new users to your account.
 |userSettings|No||The name/value pair information for user settings. These determine the actions that a user can take in the account. The [userSettings](https://www.docusign.com/p/RESTAPIGuide/Content/REST%20API%20References/Add%20User%20to%20Account.htm#userSett) are listed and described below.|
 
 
-### userSettings
+userSettings
 
 |Name|Value|Authorization Requried|Description|
 |----|-----|----------------------|-----------|
