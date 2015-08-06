@@ -256,3 +256,17 @@ This uses the same parameters as creating a new template, but only the parameter
     Content-Disposition: file; filename="test1.pdf"; documentId=1
     
     <PDF Bytes Removed>
+
+## Response
+
+The response returns success or failure and the template information.
+
+The following example shows the header followed by the response json body.
+
+### Example Response Body
+
+    {
+      "name":"String content",
+      "templateId":"String content",
+      "uri":"String content"
+    }
