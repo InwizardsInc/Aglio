@@ -37,8 +37,8 @@ The following example shows the response json body.
     {
       "fileTypes":[
         {
-    "fileExtension":"String content",
-    "mimeType":"String content"
+          "fileExtension":"String content",
+          "mimeType":"String content"
         },
         {
           "fileExtension":"String content",
