@@ -17,3 +17,14 @@ The call must have “token_type” and “access_token” for the server token 
 ## Request
 
 ### Example Request Body
+
+    POST https://{server}/restapi/{apiVersion}/oauth2/revoke
+    
+    Authorization:<token_type><access_token>
+    
+    Accept: application/json
+    Content-Type: application/json
+
+## Response
+
+    The response returns if the API execution is successful (200 – OK) or failed.
